@@ -2,10 +2,10 @@ const express = require('express');
 const path =  require('path');
 
 const app = express();
-
+const port =  process.env.PORT
 
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/*', (req, res)=>res.sendFile(path.join(__dirname, 'public', 'index.html')));
 
-app.listen(8080, ()=>console.log("server on port: "+8080));
+app.listen(port, ()=>console.log("server on port: "+port));

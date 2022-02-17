@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "serve public"
+    "test": "serve public",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
