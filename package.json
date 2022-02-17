@@ -1,0 +1,16 @@
+{
+  "name": "chatapp-cliente-production",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "serve": "^13.0.2"
+  }
+}
